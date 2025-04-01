@@ -1,0 +1,102 @@
+body {
+    background-image: url('TIG_background_nobar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar h1 {
+    position: absolute;
+    left: 30px;
+    margin: 0;
+    color: cyan;
+    font-size: 1.8rem;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+.profile-container {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.profile-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid cyan;
+}
+
+
+.section {
+    padding: 80px 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 80px 20px 20px; /
+    border-radius: 10px;
+}
+
+
+.resume {
+    padding: 80px 50px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 80px auto 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 800px;
+}
+
+.resume h2 {
+    color: cyan;
+    text-align: center;
+}
+
+.resume p {
+    line-height: 1.6;
+}
+
+.resume ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+}
